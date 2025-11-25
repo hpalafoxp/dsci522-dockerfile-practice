@@ -1,0 +1,10 @@
+name: lab2docker
+channels:
+  - conda-forge
+dependencies:
+  - conda-lock=3.0.4
+  - pandas=2.3.3
+  - altair=6.0.0
+  - python=3.11
+  - scikit-learn=1.7.2
+
