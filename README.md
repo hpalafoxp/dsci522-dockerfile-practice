@@ -8,7 +8,7 @@ docker pull hpalafoxp/dsci522-dockerfile-practice
 ```
 
 ```
-docker run --rm -it -p 8888:8888 \\
+docker run --rm -it -p 8888:8888 \
   hpalafoxp/dsci522-dockerfile-practice \
   start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
 ```
